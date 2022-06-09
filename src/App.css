@@ -1,0 +1,104 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9ffa4;
+  color: white;
+  align-items: center;
+}
+.taskContainer {
+  display: flex;
+  background-color: #131a28;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  padding: 30px 20px;
+  margin: 0 auto 20px;
+}
+.heading {
+  color: #b5ffd9;
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 50px;
+  background-color: #131a28;
+  padding: 15px 25px;
+  border-radius: 8px;
+}
+.textInput {
+  background-color: #baf89d;
+  color: #131a28;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  padding: 15px 25px;
+}
+.btnAdd {
+  background-color: #228272;
+  outline: none;
+  border: none;
+  color: #f9ffa4;
+  font-size: 17px;
+  font-weight: bolder;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 15px 15px 15px;
+  cursor: pointer;
+}
+.noTaskContainer {
+  color: #b4ff9f;
+  font-size: 17px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 50px;
+}
+.listItems {
+  background-color: #baf89d;
+  border: none;
+  border-radius: 8px;
+  width: 450px;
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 15px 0;
+  color: #146356;
+  font-weight: bold;
+  text-align: start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.deleteIcon {
+  height: 26px;
+  cursor: pointer;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.taskComplete {
+  text-decoration: line-through;
+  color: #131a28;
+}
+/* .footerText {
+  color: #b4ff9f;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  padding: 15px 25px;
+} */
